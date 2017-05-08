@@ -1,0 +1,65 @@
+{
+	"iaas_configuration": {
+	  "vcenter_host": "CHANGEME",
+	  "vcenter_username": "CHANGEME",
+	  "vcenter_password": "CHANGEME",
+	  "datacenter": "CHANGEME",
+	  "disk_type": "thin",
+	  "ephemeral_datastores_string": "CHANGEME",
+	  "persistent_datastores_string": "CHANGEME",
+	  "bosh_vm_folder": "CHANGEME",
+	  "bosh_template_folder": "CHANGEME",
+	  "bosh_disk_path": "CHANGEME"
+	},
+	"director_configuration": {
+	  "ntp_servers_string": "CHANGEME",
+	  "metrics_ip": "",
+	  "resurrector_enabled": false,
+	  "post_deploy_enabled": false,
+	  "bosh_recreate_on_next_deploy": false,
+	  "retry_bosh_deploys": false,
+	  "keep_unreachable_vms": false,
+	  "hm_pager_duty_options": {
+	  	"enabled": false,
+	  	"service_key": null,
+	  	"http_proxy": null,
+	  },
+	  "hm_emailer_options": {
+	  	"enabled": null,
+	  	"host": null,
+	  	"port": null,
+	  	"domain": null,
+	  	"from": null,
+	  	"recipients": {
+	  		"value": null
+  		},
+	  	"smtp_user": null,
+	  	"smtp_password": null,
+	  	"tls": null
+	  },
+	  "blobstore_type": "local",
+	  "s3_blobstore_options": {
+		"endpoint": null,
+		"bucket_name": null,
+		"access_key": null,
+		"secret_key": null,
+		"signature_version": null,
+		"region": null
+	  },
+	  "database_type": "internal",
+	  "external_database_options": {
+	  	"host": null,
+	  	"port": null,
+	  	"user": null,
+	  	"password": null,
+	  	"database": null
+	  },
+	  "director_worker_count": null,
+	  "max_threads": null,
+	  "director_hostname": null
+	},
+	"security_configuration": {
+	  "trusted_certificates": null,
+	  "vm_password_type": "generate"
+	}
+}
