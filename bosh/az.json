@@ -1,0 +1,19 @@
+{
+  "availability_zones": [
+    {
+      "name": "az-1",
+      "cluster": "cluster-1",
+      "resource_pool": "pool-1"
+    },
+    {
+      "name": "az-2",
+      "cluster": "cluster-2",
+      "resource_pool": "pool-2"
+    },
+    {
+      "name": "az-3",
+      "cluster": "cluster-3",
+      "resource_pool": "pool-3"
+    },
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "singleton_availability_zone": "az-1",
+  "network": "opsman-network"
+}
