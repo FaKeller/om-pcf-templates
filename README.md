@@ -15,3 +15,4 @@ Check out the README files in the folders for how to use the `om` tool to achiev
 - [BOSH Director](./bosh): v1.10.*
 - [Pivotal Cloud Foundry](./pcf): v1.10.*
 - [JMX Bridge](./products/jmx-bridge): v1.8.*
+- [Isolation Segment](./products/isolation-segment): v1.10.*
