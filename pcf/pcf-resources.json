@@ -1,0 +1,130 @@
+{
+  "consul_server": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "nats": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "etcd_tls_server": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "nfs_server": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "mysql_proxy": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "mysql": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "backup-prepare": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "ccdb": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "diego_database": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "uaadb": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "uaa": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "cloud_controller": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "ha_proxy": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "router": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "mysql_monitor": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "clock_global": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "cloud_controller_worker": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "diego_brain": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "diego_cell": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "doppler": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "loggregator_trafficcontroller": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "tcp_router": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "smoke-tests": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "push-apps-manager": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "notifications": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "notifications-ui": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "push-pivotal-account": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "autoscaling": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "autoscaling-register-broker": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "nfsbrokerpush": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "bootstrap": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  },
+  "mysql-rejoin-unsafe": {
+    "instance_type": {"id": "automatic"},
+    "persistent_disk": {"size_mb": "automatic"}
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"singleton_availability_zone": {
+		"name": "az-1"
+	},
+	"other_availability_zones": [
+		{ "name": "az-1" },
+		{ "name": "az-2" },
+		{ "name": "az-3" }
+	],
+	"network": {
+		"name": "ert-network"
+	}
+}

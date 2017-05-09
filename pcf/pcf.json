@@ -1,0 +1,102 @@
+{
+  ".properties.cc_api_rate_limit": {
+    "value": "disable"
+  },
+  ".properties.cc_api_rate_limit.enable.general_limit": {
+    "value": 2000
+  },
+  ".properties.cc_api_rate_limit.enable.unauthenticated_limit": {
+    "value": 100
+  },
+  ".properties.nfs_volume_driver": {
+    "value": "disable"
+  },
+  ".properties.garden_disk_cleanup": {
+    "value": "threshold"
+  },
+  ".properties.logger_endpoint_port": {
+    "value": null
+  },
+  ".properties.syslog_host": {
+    "value": null
+  },
+  ".properties.syslog_port": {
+    "value": null
+  },
+  ".properties.syslog_protocol": {
+    "value": null
+  },
+  ".properties.networking_point_of_entry": {
+    "value": "haproxy"
+  },
+  ".properties.networking_point_of_entry.external_ssl.ssl_rsa_certificate": {
+    "value": {
+      "private_key_pem": "***"
+    }
+  },
+  ".properties.networking_point_of_entry.external_ssl.ssl_ciphers": {
+    "value": null
+  },
+  ".properties.networking_point_of_entry.haproxy.ssl_rsa_certificate": {
+    "value": {
+      "private_key_pem": "***"
+    }
+  },
+  ".properties.networking_point_of_entry.haproxy.disable_http": {
+    "value": false
+  },
+  ".properties.networking_point_of_entry.haproxy.ssl_ciphers": {
+    "value": null
+  },
+  ".properties.networking_point_of_entry.haproxy.max_buffer_size": {
+    "value": 16384
+  },
+  ".properties.tcp_routing": {
+    "value": "disable"
+  },
+  ".properties.tcp_routing.enable.reservable_ports": {
+    "value": null
+  },
+  ".properties.route_services": {
+    "value": "enable"
+  },
+  ".properties.route_services.enable.ignore_ssl_cert_verification": {
+    "value": false
+  },
+  ".properties.container_networking": {
+    "value": "disable"
+  },
+  ".properties.container_networking.enable.network_cidr": {
+    "value": null
+  },
+  ".properties.container_networking.enable.mtu": {
+    "value": null
+  },
+  ".properties.security_acknowledgement": {
+    "value": null
+  },
+  ".properties.cf_dial_timeout_in_seconds": {
+    "value": null
+  },
+  ".properties.smoke_tests": {
+    "value": "on_demand"
+  },
+  ".properties.smoke_tests.specified.org_name": {
+    "value": null
+  },
+  ".properties.smoke_tests.specified.space_name": {
+    "value": null
+  },
+  ".properties.smoke_tests.specified.apps_domain": {
+    "value": null
+  },
+  ".properties.smtp_from": {
+    "value": null
+  },
+  ".properties.smtp_address": {
+    "value": null
+  },
+  ".properties.smtp_port": {
+    "value": null
+  }
+}
