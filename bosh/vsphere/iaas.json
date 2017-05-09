@@ -1,0 +1,12 @@
+{
+	"vcenter_host": "CHANGEME",
+	"vcenter_username": "CHANGEME",
+	"vcenter_password": "CHANGEME",
+	"datacenter": "CHANGEME",
+	"disk_type": "thin",
+	"ephemeral_datastores_string": "CHANGEME",
+	"persistent_datastores_string": "CHANGEME",
+	"bosh_vm_folder": "CHANGEME",
+	"bosh_template_folder": "CHANGEME",
+	"bosh_disk_path": "CHANGEME"
+}

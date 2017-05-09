@@ -1,10 +1,4 @@
 {
-	"network_and_az": {
-		"network": {
-			"name": "opsman-network"
-		},
-		"singleton_availability_zone": {
-			"name": "az-1"
-		}
-	}
+	"network": "opsman-network",
+	"singleton_availability_zone": "az-1"
 }
