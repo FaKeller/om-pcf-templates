@@ -1,0 +1,34 @@
+{
+  ".properties.networking_point_of_entry": {
+    "value": "terminate_at_router"
+  },
+  ".properties.networking_point_of_entry.terminate_at_router.ssl_rsa_certificate": {
+    "value": {
+      "private_key_pem": "***"
+    }
+  },
+  ".properties.networking_point_of_entry.terminate_at_router.ssl_ciphers": {
+    "value": null
+  },
+  ".isolated_router.static_ips": {
+    "value": null
+  },
+  ".isolated_diego_cell.executor_disk_capacity": {
+    "value": null
+  },
+  ".isolated_diego_cell.executor_memory_capacity": {
+    "value": null
+  },
+  ".isolated_diego_cell.garden_network_pool": {
+    "value": "10.254.0.0/22"
+  },
+  ".isolated_diego_cell.insecure_docker_registry_list": {
+    "value": null
+  },
+  ".isolated_diego_cell.garden_network_mtu": {
+    "value": 1454
+  },
+  ".isolated_diego_cell.placement_tag": {
+    "value": null
+  }
+}
