@@ -1,0 +1,25 @@
+{
+  ".properties.enable_nat_support": {
+    "value": "option_disabled"
+  },
+  ".properties.enable_nat_support.nat_option_enabled.external_ip_address": {
+    "value": null
+  },
+  ".maximus.credentials": {
+    "value": {
+      "identity": "CHANGEME",
+      "password": "CHANGEME"
+    }
+  },
+  ".maximus.security_logging": {
+    "value": true
+  },
+  ".maximus.use_ssl": {
+    "value": false
+  },
+  ".maximus.ssl_rsa_certificate": {
+    "value": {
+      "private_key_pem": "***"
+    }
+  }
+}
